@@ -33,9 +33,5 @@
 		"prettier": "3.2.4",
 		"tailwindcss": "^3.3.0",
 		"typescript": "^5"
-	},
-	"lint-staged": {
-		"**/src/**/*.{js,jsx,ts,tsx}": "eslint --cache --fix",
-		"**/src/**": "prettier --write --ignore-unknown"
 	}
 }
